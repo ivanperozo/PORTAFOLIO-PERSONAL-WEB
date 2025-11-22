@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio web usando HTML, Css y JavaScript</title>
+    
+    <link rel="stylesheet" href="style.css"/>
+    
+    <link rel="shortcut icon" href="images/fav-icon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+<div class="main-container">
+    <div class="menu-profile">
+        <header>
+            <nav>
+                <button class="dark-light-btn bg-gredient">
+                    <i class="fa-regular fa-sun"></i>
+                </button>
+                <ul>
+                    <li>
+                        <a href="#" data-label="about">
+                            <i class="fa-solid fa-address-book"></i>
+                        </a></li>
+                        <li>
+                        <a href="#" data-label="skills">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </a></li>
+                        <li>
+                        <a href="#" data-label="services">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </a></li>
+                        <li>
+                        <a href="#" data-label="pricing">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </a></li>
+                        <li>
+                        <a href="#" data-label="project">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </a></li>
+                        <li>
+                        <a href="#" data-label="education">
+                           <i class="fa-solid fa-file-lines"></i>
+                        </a></li>
+                        <li>
+                        <a href="#" data-label="testimonials">
+                            <i class="fa-solid fa-comment"></i>
+                        </a></li>
+                        <li>
+                        <a href="#" data-label="contact">
+                           <i class="fa-solid fa-paper-plane"></i>
+                        </a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="profile-container">
+            <div class="user-profile bg-gredient">
+                <div class="user-profile-container">
+                    <div class="user-profile-img">
+                        <img src="images/profile.jpg" alt="Ivan Perozo"/>
+                    </div>
+                    <div class="user-profile-text">
+                        <span>Web Developer</span>
+                        <h1>Ivan Perozo</h1>
+                        <div class="profile-social-container">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                     <div class="user-profile-btns">
+                        <a href="#">Descargar</a>
+                        <a href="#">Contactame</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="all-content">
+        <section id="about-us" class="section-container">
+            <h3>Hola, soy <span id="role">Programador Web</span></h3>
+            <h1>Programador de paginas web y estudiante de <span> Ing. En Sistemas </span> Cabimas - Zulia.</h1>
+            <p>Estudio en el Santiago Mariño, me gusta la programar y actualmente estoy haciendo un curso
+                de programacion en (Cursos Logros - Maracaibo) con la intencion de seguir creciendo profesionalmente.</p>
+                <div class="project-container-about">
+                    <div class="project-container-box">
+                        <span>1</span>
+                        <strong>Curso Completado</strong>
+                    </div>
+                    <div class="project-container-box">
+                        <span>3</span>
+                        <strong>Años estudiando</strong>
+                    </div>
+                    <div class="project-container-box">
+                        <span>10+</span>
+                        <strong>Proyectos Completados</strong>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==skills====-->
+            <section id="skills" class="section-container">
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-layer-group"></i> Habilidades Tecnicas </span>
+                    <h3>Tecnologias</h3>
+                </div>
+                <!--container-->
+                <div class="skills-box-container">
+                    <!--python-->
+                    <div class="skills-box .bg-gredient">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skills-box-bar">
+                            <span style="widht: 15%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <div class="skills-box-percentage">15%</div>
+                    </div>
+                    <!--react-->
+                    <div class="skills-box .bg-gredient">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-react"></i>
+                            <span>ReactJs</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skills-box-bar">
+                            <span style="widht: 90%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <div class="skills-box-percentage">90%</div>
+                    </div>
+                    <!--nodeJs-->
+                    <div class="skills-box .bg-gredient">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-node-js"></i>
+                            <span>NodeJs</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skills-box-bar">
+                            <span style="widht: 90%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <div class="skills-box-percentage">90%</div>
+                    </div>
+                    <!--HTML Css-->
+                    <div class="skills-box .bg-gredient">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML and CSS</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skills-box-bar">
+                            <span style="widht: 80%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <div class="skills-box-percentage">80%</div>
+                    </div>
+                    <!--MySQL-->
+                    <div class="skills-box .bg-gredient">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skills-box-bar">
+                            <span style="widht: 75%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <div class="skills-box-percentage">75%</div>
+                    </div>
+                    <!--MongoDB-->
+                    <div class="skills-box .bg-gredient">
+                        <!--heading-->
+                        <div class="skill-box-content">
+                            <i class="fa-solid fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <!--bar-->
+                        <div class="skills-box-bar">
+                            <span style="widht: 70%;"></span>
+                        </div>
+                        <!--percentage-->
+                        <div class="skills-box-percentage">70%</div>
+                    </div>
+                    
+                </div>
+
+                <!--message-->
+                <p class="service-message">Contactame para ayuda de servicios <a href="#">Empecemos!</a> </p>
+            </section>
+
+            <!--==service=====-->
+            <section id="services" class="section-container">
+                <!--heading-->
+                <div class="section-heading">
+                    <span><i class="fa-solid fa-screwdriver-wrench"></i> Nuestros servicios </span>
+                    <h3>Que servicios ofrezco?</h3>
+                </div>
+
+                <!--container-->
+                <div class="service-container">
+                    <!--box-->
+                    <div class="service-box bg-gredient">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box icon">
+                                <img src="images/graphic.png" alt="graphic"/>
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>2 Programadores</span>
+                                <strong>Diseñadores Graficos</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Modelos web, diseños e implementaciones para potenciar tu marca - 
+                            HTML / CSS / PYTHON. </p>
+                            <!--link-->
+                            <a href="#">Comencemos!</a>
+
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box icon">
+                                <img src="images/devops.png" alt="graphic"/>
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>4 Programadores</span>
+                                <strong>Devops</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Codigos e implementaciones para potenciar tu marca - 
+                            HTML / CSS. </p>
+                            <!--link-->
+                            <a href="#">Comencemos!</a>
+
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box icon">
+                                <img src="images/web.png" alt="graphic"/>
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>4 Programadores</span>
+                                <strong>Diseñadores Web</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Diseños web, implementaciones para potenciar tu marca - 
+                            HTML / CSS / JavaScript. </p>
+                            <!--link-->
+                            <a href="#">Comencemos!</a>
+
+                    </div>
+                    <!--box-->
+                    <div class="service-box bg-gredient">
+                        <!--heading-->
+                        <div class="service-box-heading">
+                            <!--icon-->
+                            <div class="service-box icon">
+                                <img src="images/tech.png" alt="graphic"/>
+                            </div>
+                            <!--text-->
+                            <div class="service-box-heading-text">
+                                <span>2 Programadores</span>
+                                <strong>Arreglos Tecnicos</strong>
+                            </div>
+                        </div>
+                        <!--details-->
+                        <p class="service-box-details">Mantenimiento web, reparacion y restauracion de tus paginas - 
+                            HTML / CSS. </p>
+                            <!--link-->
+                            <a href="#">Comencemos!</a>
+
+                    </div>
+                </div>
+
+                <!--message-->
+                <p class="service-message">Contactame para mas informacion <a href="#">Empecemos!</a> </p>
+                </section>
+            </section>
+
+            
+
+    </div>
+</div>
+
+<script>
+   // word transition effect
+   document.addEventListener("DOMContentLoaded", () => {
+    const roles = ["Programador Web", "Estudiante de Ingenieria en sistemas", "Front end"];
+    const roleElement = document.getElementById('role');
+    let roleIndex = 0;
+    let LetterIndex = 0;
+    let typingInterval;
+
+    function typeRole() {
+        roleElement.style.opacity = 1;
+        roleElement.textContent = "";
+        LetterIndex = 0;
+
+        typingInterval = setInterval(() => {
+            if (LetterIndex < roles[roleIndex].length) {
+                roleElement.textContent += roles[roleIndex].charAt(LetterIndex);
+                LetterIndex++;
+            } else {
+                clearInterval(typingInterval);
+                setTimeout(() => {
+                    // Pausa antes de borrar (opcional, o reiniciar)
+                    setTimeout(() => {
+                        roleIndex = (roleIndex + 1) % roles.length;
+                        typeRole();
+                    }, 1000);
+                }, 1000); 
+            }
+        }, 150);
+    }
+    // start typing the first role
+    typeRole();
+   });
+</script>
+
+</body>
+</html>
